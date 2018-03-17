@@ -12,7 +12,7 @@ import pandas_datareader as dr
 from matplotlib import style
 
 #style.use('fivethirtyeight')
-
+#test
 # Request HTTP API data from Bitstamp (Max. allowed Rate before IP gets blocked is 1 request/sec)
 def fetchData():
     response = rq.get('https://www.bitstamp.net/api/v2/ticker/xrpeur/')
